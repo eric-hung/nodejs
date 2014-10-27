@@ -1,6 +1,6 @@
 /*
 // ex-01
-console.log("HELLO WORLD")
+console.log("HELLO WORLD");
 */
 
 /*
@@ -23,8 +23,7 @@ console.log(strAry.length-1);
 /*
 // ex-04
 var fs = require("fs");
-var buf = fs.readFile(process.argv[2], {encoding:"utf8"}, 
-function (err, data){
+var buf = fs.readFile(process.argv[2], {encoding:"utf8"}, function (err, data){
     if (err) throw err;
     
     var string = data.toString();
